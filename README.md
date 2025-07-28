@@ -28,5 +28,4 @@ It's not just about counting your steps — it's about leveling up in real life.
 
 Inspired by classic arcade aesthetics and gamification to make fitness more fun and addictive.
 
---
-Designed By A Ibrahim: Loving each line wrote!
+## Designed By Ibrahim: Loving each line wrote!
