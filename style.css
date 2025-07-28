@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0C0F0A;
+    color: #FBFF12;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #FF206E;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #FBFF12;
+    margin-bottom: 2rem;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    background-color: #1A1C1A;
+    border: 2px solid #FF206E;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .card h2 {
+    margin: 0;
+    color: #FBFF12;
+    font-size: 1.2rem;
+  }
+  
+  .card p {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #FF206E;
+  }
+  
+  .xp {
+    margin-bottom: 2rem;
+  }
+  
+  .xp-bar {
+    background-color: #1A1C1A;
+    border: 2px solid #FBFF12;
+    height: 25px;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 1rem 0;
+  }
+  
+  #xp-fill {
+    background-color: #FF206E;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  button#simulate, button#reset {
+    background-color: #FF206E;
+    border: none;
+    color: #0C0F0A;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button#simulate:hover, button#reset:hover {
+    background-color: #FBFF12;
+    color: #0C0F0A;
+  }
+  

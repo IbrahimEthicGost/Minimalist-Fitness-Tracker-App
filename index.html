@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoFit - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔥 NeoFit</h1>
+      <p>Level up your body</p>
+    </header>
+
+    <section class="stats">
+      <div class="card">
+        <h2>Pas</h2>
+        <p id="steps">0</p>
+      </div>
+      <div class="card">
+        <h2>Distance</h2>
+        <p id="distance">0 km</p>
+      </div>
+      <div class="card">
+        <h2>Calories</h2>
+        <p id="calories">0 kcal</p>
+      </div>
+    </section>
+
+    <section class="xp">
+      <h2>XP Progress</h2>
+      <div class="xp-bar">
+        <div id="xp-fill"></div>
+      </div>
+      <p id="xp-level">Niveau 1 - 0 XP</p>
+    </section>
+
+    <button id="simulate">+100 pas</button>
+    <button id="reset">Restaurer</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
